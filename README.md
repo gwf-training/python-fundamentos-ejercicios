@@ -7,9 +7,6 @@
 
 🐙  Repositorio de código en GitHub: https://github.com/mouredev/Hello-Python
 
-
-## Clases en vídeo
-
 ### Curso de fundamentos desde cero
 
 Curso que agrupa todas las clases en directo que hacen referencia a los fundamentos de Python.
