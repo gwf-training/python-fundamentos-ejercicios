@@ -220,7 +220,7 @@ print("calculate_range", calculate_range(numbers))
 
 #Exercises: Level 3
 #3.1 Write a function called is_prime, which checks if a number is prime.
-def id_prime (number: int) -> bool:
+#def id_prime (number: int) -> bool:
     
 #3.2 Write a functions which checks if all items are unique in the list.
 #3.3 Write a function which checks if all the items of the list are of the same data type.
