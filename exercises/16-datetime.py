@@ -71,6 +71,7 @@ print(new_year-now.date())
 #Calculate the time difference between 1 January 1970 and now.
 from datetime import timedelta
 new_year = date(1978, 2 , 12)
+timedelta()
 print("diff:", now.date()-new_year)
 
 
