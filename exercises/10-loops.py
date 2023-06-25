@@ -102,14 +102,14 @@ from data.countries_data import countries_data
 
 languages = set()
 for data in countries_data:
-    languages = languages.union(set(data.get('languages')))
+    languages = languages.union(set(data['languages']))
 print("number of languages in the data:", len(languages))
 
 #   3.2 Find the ten most spoken languages from the data
 dict_languages = dict.fromkeys(languages, 0)
 for data in countries_data:
-    for lang in data.get('languages'):
-        dict_languages[lang] =  dict_languages.get(lang) + 1
+    for lang in data['languages']:
+        dict_languages[lang] =  dict_languages[lang] + 1
 sorted_languages = sorted(dict_languages.items(), key=lambda x:x[1], reverse=True)
 most_spoken_languages = dict(sorted_languages[:10])
 print("most_spoken_languages:", most_spoken_languages)
